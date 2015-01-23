@@ -24,7 +24,7 @@ Install nose-autochecklog
 
 Using
 ------
-Given the following tests (suppose it is in file /test_steps/test1.py)
+Given the following tests (suppose it is in file /test_steps_example/test1.py)
 
 .. code-block:: python
 
@@ -51,7 +51,7 @@ Then, you will get the following log in logfile /tmp/test_yyyymmdd_hhmm.log by d
 
     Steven-Mac:tmp Steven$ cat test_20150124_1545.log 
     2015-01-24 15:45:11,184 - INFO - ------------------------------------------------------
-    2015-01-24 15:45:11,197 - INFO - Func test_example in file: /Users/xili4/PycharmProjects/TrialProj/systemtest/test2/test1.py
+    2015-01-24 15:45:11,197 - INFO - Func test_example in file: /test_steps_example/test1.py
     2015-01-24 15:45:11,198 - INFO - Check-1: just pass the check and log it -PASS- 
     2015-01-24 15:45:11,198 - INFO - Check-2: pass if expr else fail -PASS- 
     2015-01-24 15:45:11,198 - INFO - Check-3: 9 == 9 -PASS- 9 == 9?
