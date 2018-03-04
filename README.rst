@@ -1,10 +1,10 @@
 nose plugin for test_steps auto check and log functions
 ===============================================================
 
-.. image:: https://pypip.in/v/nose_autochecklog/badge.png
+.. image:: https://img.shields.io/pypi/v/nose_autochecklog.svg
     :target: https://crate.io/packages/nose_autochecklog/
 
-.. image:: https://pypip.in/d/nose_autochecklog/badge.png
+.. image:: https://img.shields.io/pypi/dm/nose_autochecklog.svg
     :target: https://crate.io/packages/nose_autochecklog/
 
 This nose plugin is very simple, which is for users who use test_steps in nose framework.
